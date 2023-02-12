@@ -20,7 +20,7 @@
 
 从2005年之后，相继出现Prototype，Motools，jQuery等为了抹平浏览器差异的库，极大的降低了全栈开发门开。随着电商高速发展，促成了前后端分离，并最终催生了前端工程师这一专业工种。
 
-在2009年，Node.js横空出世，由于Node.js使用V8这个最高效的JavaScript引擎，所以在语法上，对前端更友好，或间接或直接的促进了前端构建领域的日渐成熟，比如对html不满足，就有了Pug、ejs等模版，比如css不满足，就有了sass，less等CSS预处理器，比如js不满足，就开始有了Coffee等新的衍生语言。除此之外，在模块规范层面也是有了很多演进，从AMD到CommonJS到UMD，完成了很多优秀的探索，比如require.js，sea.js这样的优秀实践。另外JavaScript语言本身也取得非常大的发展，从ES5一路升级，在TC39组织下每年一个版本，为了兼容各个版本特性，诞生了Babel这样的超级怪物，当然这样间接的解决了异步流程控制问题，从Callback hell到Promise到Generator到Async function，虽然很乱，到总归是回到了正路上。除了这些基础外，在UI框架层面也做了大量时间，从早年各种hack面向对象基础，到extjs类的面向对象的开发方式，甚至是从Flex、Silvelight等富客户端，但都是惊鸿一瞥，未能一直称雄。
+在2009年，Node.js横空出世，由于Node.js使用V8这个最高效的JavaScript引擎，所以在语法上，对前端更友好，或间接或直接的促进了前端构建领域的日渐成熟，比如对html不满足，就有了Pug、ejs等模版，比如css不满足，就有了sass，less等CSS预处理器，比如js不满足，就开始有了Coffee等新的衍生语言。除此之外，在模块规范层面也是有了很多演进，从AMD到CommonJS到UMD，完成了很多优秀的探索，比如require.js，sea.js这样的优秀实践。另外JavaScript语言本身也取得非常大的发展，从ES5一路升级，在TC39组织下每年一个版本，为了兼容各个版本特性，诞生了Babel这样的超级怪物，当然这样间接的解决了异步流程控制问题，从Callback hell到Promise到Generator到Async function，虽然很乱，到总归是回到了正路上。除了这些基础外，在UI框架层面也做了大量实践，从早年各种hack面向对象基础，到extjs类的面向对象的开发方式，甚至是从Flex、Silvelight等富客户端，但都是惊鸿一瞥，未能一直称雄。
 
 随后2013年之后，开始出现Backbone，Angular类似插件，将MVVM、IoC、指令等引入到前端，继而促使React、Vue在DSL，VDom层面展开激烈角逐，并促成了React、Vue、Angular三家争霸的局面。同时，也使得分散的技术栈开始变得不满足构建需求，于是从Grunt、Gulp等传统构建器，演进为以Webpack代表的打包器(Bundler)。
 
